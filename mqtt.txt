@@ -1,0 +1,224 @@
+Script started on 2022-04-07 10:47:25+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 client.pyhat1.py 147.96.132.173[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pkill -9 14505lsof -i TCP:6000[3Pkill -9 13592python3 chat1.py 147.96.132.173[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pkill -9 12104lsof -i TCP:6000[1P[C[C[C[C[C[C[C[C[C[C[Ckill[Kpython3 chat1.py 147.96.132.173[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pip address showpython3 chat1.py 147.96.132.173[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pip address showIP[C[C[C[C[C[C[C[C[C[C[C[C[C[1P showls[Kcd Descargasls[Kpython3 sol_skel1.py(1).pytunel_borrador.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcd Descargaspython3 tunel_borrador.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcd Descargaspython3 tunel_borrador.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpython3 tunel_borrador.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[K[Kpython3 broker_test.py wild.mat.ucm.es temo[Kperature/t1
+MESSAGE: None temperature/t1 0 b'39' 0
+MESSAGE: None temperature/t1 0 b'0' 0
+MESSAGE: None temperature/t1 0 b'1' 0
+MESSAGE: None temperature/t1 0 b'2' 0
+MESSAGE: None temperature/t1 0 b'3' 0
+MESSAGE: None temperature/t1 0 b'4' 0
+MESSAGE: None temperature/t1 0 b'5' 0
+^CTraceback (most recent call last):
+  File "broker_test.py", line 23, in <module>
+    main(broker, topic)
+  File "broker_test.py", line 14, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 broker_test.py wild.mat.ucm.es temperature/t1[K2
+MESSAGE: None temperature/t2 0 b'8' 0
+MESSAGE: None temperature/t2 0 b'9' 0
+MESSAGE: None temperature/t2 0 b'14' 0
+MESSAGE: None temperature/t2 0 b'12' 0
+MESSAGE: None temperature/t2 0 b'12' 0
+MESSAGE: None temperature/t2 0 b'14' 0
+MESSAGE: None temperature/t2 0 b'15' 0
+MESSAGE: None temperature/t2 0 b'17' 0
+^CTraceback (most recent call last):
+  File "broker_test.py", line 23, in <module>
+    main(broker, topic)
+  File "broker_test.py", line 14, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 broker_test.py wild.mat.ucm.es temperature/t2[K[K[K[K[K[K[K[K[K[K[K[K[K[Khumidity
+MESSAGE: None humidity 0 b'40' 0
+MESSAGE: None humidity 0 b'39' 0
+MESSAGE: None humidity 0 b'33' 0
+MESSAGE: None humidity 0 b'36' 0
+MESSAGE: None humidity 0 b'44' 0
+^CTraceback (most recent call last):
+  File "broker_test.py", line 23, in <module>
+    main(broker, topic)
+  File "broker_test.py", line 14, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 broker_test.py wild.mat.ucm.es humidity[K[K[K[K[K[K[K[Knumbers
+MESSAGE: None numbers 0 b'51' 0
+MESSAGE: None numbers 0 b'69' 0
+MESSAGE: None numbers 0 b'0.134380715365798' 0
+MESSAGE: None numbers 0 b'0.5752324570065929' 0
+MESSAGE: None numbers 0 b'30' 0
+MESSAGE: None numbers 0 b'41' 0
+MESSAGE: None numbers 0 b'0.7670472007956348' 0
+MESSAGE: None numbers 0 b'90' 0
+MESSAGE: None numbers 0 b'0.09056108772050453' 0
+MESSAGE: None numbers 0 b'87' 0
+MESSAGE: None numbers 0 b'0.013251412351292235' 0
+MESSAGE: None numbers 0 b'0.33838437302877145' 0
+MESSAGE: None numbers 0 b'0.8627583253788956' 0
+MESSAGE: None numbers 0 b'0.9890593609527474' 0
+MESSAGE: None numbers 0 b'79' 0
+MESSAGE: None numbers 0 b'24' 0
+^CTraceback (most recent call last):
+  File "broker_test.py", line 23, in <module>
+    main(broker, topic)
+  File "broker_test.py", line 14, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ pyton[K[Khon3 combines[K_numbers.py wild.mat.ucm.es
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending SUBSCRIBE (d0, m1) [(b'numbers', 0)]
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received SUBACK
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.04498922208675371'
+invalid literal for int() with base 10: b'0.04498922208675371'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7ff625e851f0>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+^CTraceback (most recent call last):
+  File "combine_numbers.py", line 86, in <module>
+    main(broker)
+  File "combine_numbers.py", line 78, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1773, in loop_forever
+    self._reconnect_wait()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3612, in _reconnect_wait
+    time.sleep(min(remaining, 1))
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 combine_numbers.py wild.mat.ucm.es[C[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.est wild.mat.ucm.ese wild.mat.ucm.esm wild.mat.ucm.esperatures.py wild.mat.ucm.es
+on_message temperature/t1 b'13'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'13']}}
+on_message temperature/t2 b'12'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'13'], 't2': [b'12']}}
+on_message temperature/t1 b'14'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'14'], 't2': [b'12']}}
+on_message temperature/t2 b'16'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'14'], 't2': [b'16']}}
+on_message temperature/t1 b'15'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'15'], 't2': [b'16']}}
+on_message temperature/t2 b'13'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'15'], 't2': [b'13']}}
+on_message temperature/t1 b'16'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'16'], 't2': [b'13']}}
+on_message temperature/t2 b'16'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'16'], 't2': [b'16']}}
+on_message temperature/t1 b'17'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17'], 't2': [b'16']}}
+on_message temperature/t2 b'19'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17'], 't2': [b'19']}}
+mean t1: 17.0
+mean t2: 19.0
+on_message temperature/t1 b'18'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18'], 't2': [b'19']}, 't1': [], 't2': []}
+on_message temperature/t2 b'19'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18'], 't2': [b'19', b'19']}, 't1': [], 't2': []}
+on_message temperature/t1 b'19'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19'], 't2': [b'19', b'19']}, 't1': [], 't2': []}
+on_message temperature/t2 b'18'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19'], 't2': [b'19', b'19', b'18']}, 't1': [], 't2': []}
+on_message temperature/t1 b'20'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19', b'20'], 't2': [b'19', b'19', b'18']}, 't1': [], 't2': []}
+on_message temperature/t2 b'19'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19', b'20'], 't2': [b'19', b'19', b'18', b'19']}, 't1': [], 't2': []}
+on_message temperature/t1 b'21'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19', b'20', b'21'], 't2': [b'19', b'19', b'18', b'19']}, 't1': [], 't2': []}
+on_message temperature/t2 b'19'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19', b'20', b'21'], 't2': [b'19', b'19', b'18', b'19', b'19']}, 't1': [], 't2': []}
+on_message temperature/t1 b'22'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19', b'20', b'21', b'22'], 't2': [b'19', b'19', b'18', b'19', b'19']}, 't1': [], 't2': []}
+on_message temperature/t2 b'24'
+on_message {'lock': <unlocked _thread.lock object at 0x7ff37845c4b0>, 'temp': {'t1': [b'17', b'18', b'19', b'20', b'21', b'22'], 't2': [b'19', b'19', b'18', b'19', b'19', b'24']}, 't1': [], 't2': []}
+^CTraceback (most recent call last):
+  File "temperatures.py", line 44, in <module>
+    main(broker)
+  File "temperatures.py", line 32, in main
+    sleep(8)
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 temperatures.py wild.mat.ucm.es[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P wild.mat.ucm.esh wild.mat.ucm.esu wild.mat.ucm.esm wild.mat.ucm.esidity.py wild.mat.ucm.es
+message:temperature/t1:b'31':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 31, suscribiendo a humidity
+message:humidity:b'35':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'32':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'37':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'36':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'42':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'34':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'46':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'35':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'41':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'36':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'37':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'48':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'48':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'41':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+^CTraceback (most recent call last):
+  File "humidity.py", line 50, in <module>
+    main(broker)
+  File "humidity.py", line 41, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 humidity.py wild.mat.ucm.es[C[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.est wild.mat.ucm.esi wild.mat.ucm.esm wild.mat.ucm.eseout.py wild.mat.ucm.es
+  File "timeout.py", line 17
+    worker = Process(target=work_on_message, args=(str(msg.payload), userdata[’b
+                                                                               ^
+SyntaxError: invalid character in identifier
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 timeout.py wild.mat.ucm.es
+CONNECT: {'broker': 'wild.mat.ucm.es'} {'session present': 0} 0
+^CTraceback (most recent call last):
+  File "timeout.py", line 46, in <module>
+    main(broker)
+  File "timeout.py", line 38, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ python3 timeout.py wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.ese wild.mat.ucm.ess wild.mat.ucm.est wild.mat.ucm.es_timer.py wild.mat.ucm.es
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ ^C
+]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ exit
+
+Script done on 2022-04-07 10:59:02+02:00 [COMMAND_EXIT_CODE="130"]
